@@ -13,10 +13,10 @@ Service dependencies can be installed by running the following command in the pr
     
 The application can be run by running the following command in the project root directory
 
-    gradlew clean run -Dfile=<filename>
+    gradlew clean run -Pfile=<filename>
 
 Where filename is the relative path of the file you intend to use for an input.
 
 An example input file has been included and can be used as follows
 
-    gradlew clean run -Dfile=exampleInput.txt
+    gradlew clean run -Pfile=exampleInput.txt

@@ -1,11 +1,10 @@
-group 'com.amcodeprojects'
+group 'com.amcodeprojects.seek.aips'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 apply plugin: 'application'
 
 sourceCompatibility = 1.8
-
 mainClassName = "com.amcodeprojects.seek.aips.RoadStatisticReaderApplication"
 
 run {
